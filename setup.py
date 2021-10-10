@@ -3,13 +3,13 @@ from distutils.core import setup
 setup(
     name='modeldeployer',
     packages=['modeldeployer'],
-    version='0.1.2',
+    version='0.1.3',
     license='apache-2.0',
     description='model deployer',
     author='Ahmet Gürbüz',
     author_email='ahmet.gurbuzz96@gmail.com',
     url='https://github.com/AhmetGurbuzz/model-deployer',
-    download_url='https://github.com/AhmetGurbuzz/model-deployer/archive/refs/tags/v0.1.2.tar.gz',
+    download_url='https://github.com/AhmetGurbuzz/model-deployer/archive/refs/tags/v0.1.3.tar.gz',
     keywords=['model', 'deployment', 'pickling', 'lambda'],
     install_requires=[
         'cloudpickle'
